@@ -12,6 +12,7 @@ import static org.junit.jupiter.api.Assertions.*;
  * @date 2023-03-17 18:39
  */
 class ShapeGenericFactoryTest {
+
     @Test
     void draw() throws Exception {
         ShapeGenericFactory<Circle> factoryA = new ShapeGenericFactory<>();
