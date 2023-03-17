@@ -1,6 +1,6 @@
 package com.hom.puppy.factory;
 
-import org.junit.jupiter.api.Assertions;
+import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
 /**
@@ -22,6 +22,6 @@ class ShapeFactoryTest {
         rectangle.draw();
         square.draw();
 
-        Assertions.assertTrue(circle instanceof Circle);
+        assertTrue(circle instanceof Circle);
     }
 }
